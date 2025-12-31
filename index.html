@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
   <head>
     <title>Zhenyu Jiang's Portfolio</title>
@@ -22,13 +17,14 @@
     <div id="wrapper" class="fade-in">
       <!-- Intro -->
       <div id="intro">
-        <h1>Zhenyu Jiang's Portfolio</h1>
+        <h1>Hi, I’m Zhenyu Jiang.</h1>
         <p>
-          Junior at UCSD studying Computer Engineering. Passionate on
-          coding and robotics.
+          I’m a Computer Engineering student at UC San Diego focused on
+robotics, autonomous systems, and learning-based control.
         </p>
-        <p>This is outdated!! please click the button below to my newest Portfolio!</p>
-        <a href="https://xdawn66.site/"><button>Go to the newest website</button></a>
+        <p>
+          This site contains selected research projects, demos, and technical work.
+        </p>
   
         <ul class="actions">
           <li>
@@ -43,7 +39,7 @@
 
       <!-- Header -->
       <header id="header">
-        <a href="index.html" class="logo">Go</a>
+        <a href="index.html" class="logo">Back to Home</a>
       </header>
 
       <!-- Nav -->
@@ -72,29 +68,34 @@
         <!-- Featured Post -->
         <article class="post featured">
           <header class="major">
-            <h2>
-              <a
-                href="https://github.com/XDawn66/Spotify_anime_song_recommanders"
-                >HARO Anime Song Recommender</a
-              >
-            </h2>
+            <h2><a href="https://github.com/XDawn66/Almost-barrer-control">
+              Learning-Based Control
+            </a></h2>
             <p>
-              A website that can recommend the most recent popular anime songs through spotify api, allowing users to try out the recommended songs and save them into their personal Spotify playlist.
+              <strong>Based on:</strong> “Neural Almost-Barrier Functions for Quantifying Safety in Learning-based Controllers”
             </p>
+              <ul class="project_details" id="nbf_project_details">
+              <li>Implemented safety-constrained reinforcement learning from a research paper</li>
+              <li>Built a Soft Actor-Critic (SAC) training pipeline in PyTorch</li>
+              <li>Designed reward functions and safety constraints</li>
+              <li>Achieved ~80% certified safety rate</li>
+            </ul>
           </header>
           <a
-            href="https://github.com/XDawn66/Spotify_anime_song_recommanders"
+            href="https://youtu.be/J40sx3TA0G4"
             class="image main"
-            ><img src="pictures/image1.png" alt=""
+            ><img src="pictures/nbf.png" alt=""
           /></a>
           <ul class="actions special">
-            <li>
-              <a
-                href="https://github.com/XDawn66/Spotify_anime_song_recommanders"
-                class="button large"
-                >Check it out</a
-              >
-            </li>
+              <p class="links">
+              <a href="https://github.com/XDawn66/Almost-barrer-control" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <span> | </span>
+              <a href="https://youtu.be/J40sx3TA0G4" target="_blank" rel="noopener noreferrer">Demo Video</a>
+              <span> | </span>
+              <a href="reports/nbf_Re.pdf" target="_blank" rel="noopener noreferrer">My Report</a>
+              <span> | </span>
+              <a href="https://arxiv.org/pdf/2207.13891" >Original Paper</a>
+            </p>
           </ul>
         </article>
 
@@ -104,48 +105,62 @@
             <header>
               <h2>
                 <a
-                  href="https://github.com/XDawn66/snake-game/tree/main/Snake/conio.h"
-                  >The Snake Game<br
+                  href="https://github.com/XDawn66/Implementation-of-Formation-Control-of-Nonholonomic-Mobile-Robots-Using-Graph-Theoretical-Methods"
+                  >Multi-Robot Formation Control (Nonholonomic Robots) <br
                 /></a>
               </h2>
+              <p><strong>Based on:</strong> “Formation Control of Nonholonomic Mobile Robots Using Graph Theoretical Methods” (original paper)</p>
             </header>
             <a
-              href="https://github.com/XDawn66/snake-game/tree/main/Snake/conio.h"
+              href="https://youtu.be/1tSrRSDBJhM"
               class="image fit"
-              ><img src="pictures/snake.png" alt=""
+              ><img src="pictures/formation.png" alt=""
             /></a>
-            <p>
-              Created a classic snake game with C++ and conio.h library. The
-              snake can grow longer and longer as they eat more fruits on the
-              map. The player will use WASD keys to control the snake and lose
-              if their snake eats its tail or hit the edge of the map.
-            </p>
+            <ul class="project_details" id="formation_project_details">
+              <li>Implemented the formation control method from the original paper (Laplacian-based consensus + time-scaling feedback)</li>
+              <li>Derived Kronecker-product matrix formulations to support variable robot counts and formation geometries</li>
+              <li>Developed a 2D multi-robot simulator in Python (NumPy, Matplotlib, Pygame) for formation and target tracking</li>
+              <li>Verified controller stability using the Hurwitz criterion and evaluated robustness under disturbances</li>
+            </ul>
             <ul class="actions special">
-              <li>
-                <a
-                  href="https://github.com/XDawn66/snake-game/tree/main/Snake/conio.h"
-                  class="button"
-                  >Check it out</a
-                >
-              </li>
+            <p class="links">
+              <a href="https://github.com/XDawn66/Implementation-of-Formation-Control-of-Nonholonomic-Mobile-Robots-Using-Graph-Theoretical-Methods" >GitHub</a>
+              <span> | </span>
+              <a href="https://youtu.be/1tSrRSDBJhM" >Demo Video</a>
+              <span> | </span>
+              <a href="reports/formation_re.pdf">My Report</a>
+              <span> | </span>
+              <a href="reports/fomration_control.pdf">Original Paper</a>
+            </p>
             </ul>
           </article>
           <article>
             <header>
               <h2>
-                <a href="https://github.com/XDawn66/Pig-game">Pig Games<br /></a>
+                <a href="https://github.com/Triton-AI/Camera_fusion2025">Sensor Fusion & Perception <br /></a>
               </h2>
+              <p><strong>Project:</strong> Triton AI Autonomous Racing Lab (F1TENTH / EV Go-Kart)</p>
             </header>
-            <a href="https://github.com/XDawn66/Pig-game" class="image fit"
-              ><img src="pictures/pig.png" alt=""
+            <a href="https://drive.google.com/file/d/1p2-7kQLejvLu06LUa1CqxK1zoss0T439/view?usp=drive_link" class="image fit"
+              ><img src="pictures/f110.jpg" alt=""
             /></a>
-            <p>
-              Created a game that allows two players to take terms to roll a
-              dice. Getting dice one = lost all points at that round && switch
-              player. 1st get 100 = victory! Using javascript,CSS,HTML,and DOM manipulation.
-            </p>
+            <ul class="project_details">
+              <li>Designed and implemented a perception pipeline for autonomous racing using camera-based object detection</li>
+              <li>Trained and evaluated YOLO models on 9,000+ labeled images under varying lighting and environmental conditions</li>
+              <li>Integrated perception outputs with ROS2-based multi-sensor fusion for real-time decision making</li>
+              <li>Adapted perception and control stack from F1TENTH platform to full-scale EV go-kart system</li>
+              <li>Improved robustness and detection stability for real-world autonomous driving scenarios</li>
+            </ul>
             <ul class="actions special">
-              <li><a href="https://github.com/XDawn66/Pig-game" class="button">Check it out</a></li>
+              <p class="links">
+              <a href="https://github.com/Triton-AI/Camera_fusion2025" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <span> | </span>
+              <a href="https://drive.google.com/file/d/1p2-7kQLejvLu06LUa1CqxK1zoss0T439/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Demo Video</a>
+              <span> | </span>
+              <a href="https://universe.roboflow.com/ucsd-triton-ai-perception/trtitonai_cam_f10-uuf2k" target="_blank" rel="noopener noreferrer">Roboflow Universe</a>
+              <span> | </span>
+              <a href="https://docs.google.com/presentation/d/1uSgE_XHUUeJU5rMeAGfmBRWoOKLKZzB1Wc46d9eokVM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Presentation</a>
+            </p>
             </ul>
           </article>
           <article>
