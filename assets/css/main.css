@@ -188,6 +188,11 @@ html {
 }
 
 body {
+  background-image: url("pictures/back.jpg");
+  background-size: cover; /* fills screen */
+  background-position: center; /* centers image */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional: parallax feel */
   background-color: #1e252d;
 }
 
