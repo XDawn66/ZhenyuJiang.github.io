@@ -1,13 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Zhenyu Jiang — Robotics &amp; Autonomous Systems</title>
-    <meta name="description" content="Zhenyu Jiang is a recent UC San Diego Computer Engineering graduate focused on robotics, autonomous systems, reinforcement learning, and control. Explore projects, code, and demos." />
+    <meta
+      name="description"
+      content="Zhenyu Jiang is a recent UC San Diego Computer Engineering graduate focused on robotics, autonomous systems, reinforcement learning, and control. Explore projects, code, and demos."
+    />
     <meta name="theme-color" content="#0a0a0a" />
-    <meta property="og:title" content="Zhenyu Jiang — Robotics &amp; Autonomous Systems" />
-    <meta property="og:description" content="From learning-based control to real-world robots. Selected robotics, reinforcement learning, and autonomy projects." />
+    <meta
+      property="og:title"
+      content="Zhenyu Jiang — Robotics &amp; Autonomous Systems"
+    />
+    <meta
+      property="og:description"
+      content="From learning-based control to real-world robots. Selected robotics, reinforcement learning, and autonomy projects."
+    />
     <meta property="og:type" content="website" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="assets/css/portfolio.css" />
@@ -15,109 +24,510 @@
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header wrap">
-      <a class="wordmark" href="#home" aria-label="Zhenyu Jiang, home">Zhenyu Jiang<span aria-hidden="true">.</span></a>
-      <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a></nav>
+      <a class="wordmark" href="#home" aria-label="Zhenyu Jiang, home"
+        >Zhenyu Jiang<span aria-hidden="true">.</span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#about">About</a
+        ><a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
     </header>
     <main id="main" class="wrap">
       <section class="hero" id="home" aria-labelledby="hero-title">
         <div class="hero-copy">
-        <p class="eyebrow">Robotics &amp; autonomous systems</p>
-        <h1 id="hero-title">Learning. Control.<br /><span>Real-world robots.</span></h1>
-        <p class="hero-intro">I’m Zhenyu, a recent Computer Engineering graduate from UC San Diego. I build autonomy software and explore how robots can learn, perceive, and move safely.</p>
-        <div class="hero-actions">
-          <a class="button" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
-          <a class="text-link" href="https://github.com/XDawn66">GitHub <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="https://www.linkedin.com/in/zhenyu-jiang-845a08235/">LinkedIn <span aria-hidden="true">↗</span></a>
-        </div>
-        <p class="availability"><span class="status-dot" aria-hidden="true"></span>Open to early-career roles in robotics, autonomy, controls &amp; applied ML</p>
+          <p class="eyebrow">Robotics &amp; autonomous systems</p>
+          <h1 id="hero-title">
+            Learning. Control.<br /><span>Real-world robots.</span>
+          </h1>
+          <p class="hero-intro">
+            I’m Zhenyu, a recent Computer Engineering graduate from UC San
+            Diego. I build autonomy software and explore how robots can learn,
+            perceive, and move safely.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#work"
+              >Explore my work <span aria-hidden="true">↘</span></a
+            >
+            <a class="text-link" href="https://github.com/XDawn66"
+              >GitHub <span aria-hidden="true">↗</span></a
+            >
+            <a
+              class="text-link"
+              href="https://www.linkedin.com/in/zhenyu-jiang-845a08235/"
+              >LinkedIn <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <p class="availability">
+            <span class="status-dot" aria-hidden="true"></span>Open to
+            early-career roles in robotics, autonomy, controls &amp; applied ML
+          </p>
         </div>
         <figure class="hero-visual">
-          <img id="hero-animation" src="pictures/self-driving-perception.gif" alt="CARLA simulation of a driving scene, showing a camera view alongside an event-camera sensor visualization" width="600" height="225" />
+          <img
+            id="hero-animation"
+            src="pictures/self-driving-perception.gif"
+            alt="CARLA simulation of a driving scene, showing a camera view alongside an event-camera sensor visualization"
+            width="600"
+            height="225"
+          />
         </figure>
       </section>
       <section class="work section" id="work" aria-labelledby="work-title">
-        <div class="section-heading"><h2 id="work-title">Selected work</h2><span class="section-note">Research → simulation → hardware</span></div>
-        <article class="project featured-project current-project" aria-labelledby="rl-formation-title">
-          <a class="project-image current-project-image" href="https://github.com/XDawn66/RL-formation-control" aria-label="Explore the reinforcement learning formation control repository">
-            <img src="pictures/rl-formation-20bots.png" alt="Simulation trajectories of 20 robots converging toward a desired formation while following a moving anchor" width="1270" height="978" loading="lazy" />
+        <div class="section-heading">
+          <h2 id="work-title">Selected work</h2>
+          <span class="section-note">Research → simulation → hardware</span>
+        </div>
+        <article
+          class="project featured-project current-project"
+          aria-labelledby="rl-formation-title"
+        >
+          <a
+            class="project-image current-project-image"
+            href="https://github.com/XDawn66/RL-formation-control"
+            aria-label="Explore the reinforcement learning formation control repository"
+          >
+            <img
+              src="pictures/rl-formation-20bots.png"
+              alt="Simulation trajectories of 20 robots converging toward a desired formation while following a moving anchor"
+              width="1270"
+              height="978"
+              loading="lazy"
+            />
           </a>
           <div class="project-copy">
             <p class="eyebrow">Current project / In progress</p>
-            <h3 id="rl-formation-title">Reinforcement learning for scalable formation control</h3>
-            <p class="project-context">Ongoing research · Multi-robot simulation</p>
-            <p>Combining reinforcement learning with graph-based formation control. A Soft Actor-Critic policy adapts two shared controller gains, keeping the learned action space fixed as the robot team grows.</p>
-            <ul class="contributions"><li>Built a Transformer encoder with padding and masking to handle variable-size robot teams.</li><li>Evaluated the structured controller in simulation with teams of up to 20 robots.</li></ul>
-            <ul class="tags" aria-label="Technologies"><li>Python</li><li>PyTorch</li><li>SAC</li><li>Transformer</li><li>Gymnasium</li></ul>
-            <div class="project-links"><a href="https://github.com/XDawn66/RL-formation-control">Code &amp; findings ↗</a><a href="https://youtu.be/FptJdGw1jp8">Stage 1 demo ↗</a><a href="https://youtu.be/T281nux2OXo">Stage 2 demo ↗</a></div>
-            <details class="project-details"><summary>Current scope &amp; next steps</summary><p>Gain selection is centralized, and results use simplified robot dynamics in simulation. Next steps include multi-seed benchmarks, encoder ablations, decentralized gain selection, and fault-tolerance experiments.</p></details>
+            <h3 id="rl-formation-title">
+              Reinforcement learning for scalable formation control
+            </h3>
+            <p class="project-context">
+              Ongoing research · Multi-robot simulation
+            </p>
+            <p>
+              Combining reinforcement learning with graph-based formation
+              control. A Soft Actor-Critic policy adapts two shared controller
+              gains, keeping the learned action space fixed as the robot team
+              grows.
+            </p>
+            <ul class="contributions">
+              <li>
+                Built a Transformer encoder with padding and masking to handle
+                variable-size robot teams.
+              </li>
+              <li>
+                Evaluated the structured controller in simulation with teams of
+                up to 20 robots.
+              </li>
+            </ul>
+            <ul class="tags" aria-label="Technologies">
+              <li>Python</li>
+              <li>PyTorch</li>
+              <li>SAC</li>
+              <li>Transformer</li>
+              <li>Gymnasium</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/XDawn66/RL-formation-control"
+                >Code &amp; findings ↗</a
+              ><a href="https://youtu.be/FptJdGw1jp8">Stage 1 demo ↗</a
+              ><a href="https://youtu.be/T281nux2OXo">Stage 2 demo ↗</a>
+            </div>
+            <details class="project-details">
+              <summary>Current scope &amp; next steps</summary>
+              <p>
+                Gain selection is centralized, and results use simplified robot
+                dynamics in simulation. Next steps include multi-seed
+                benchmarks, encoder ablations, decentralized gain selection, and
+                fault-tolerance experiments.
+              </p>
+            </details>
           </div>
         </article>
-        <article class="project featured-project" aria-labelledby="perception-title">
-          <a class="project-image racing-image" href="https://drive.google.com/file/d/1p2-7kQLejvLu06LUa1CqxK1zoss0T439/view" aria-label="Watch the autonomous racing demo">
-            <img src="pictures/f110.jpg" alt="An F1TENTH autonomous race car navigating an indoor track" width="3840" height="2160" fetchpriority="high" />
-            <span class="image-label">On the track <span aria-hidden="true">↗</span></span>
+        <article
+          class="project featured-project"
+          aria-labelledby="perception-title"
+        >
+          <a
+            class="project-image racing-image"
+            href="https://youtu.be/20iOb5ikr-E"
+            aria-label="Watch the autonomous racing demo"
+          >
+            <img
+              src="pictures/f110.jpg"
+              alt="An F1TENTH autonomous race car navigating an indoor track"
+              width="3840"
+              height="2160"
+              fetchpriority="high"
+            />
+            <span class="image-label"
+              >On the track <span aria-hidden="true">↗</span></span
+            >
           </a>
           <div class="project-copy">
             <p class="eyebrow">01 / Perception &amp; deployment</p>
-            <h3 id="perception-title">Autonomous racing.<br />From pixels to perception.</h3>
+            <h3 id="perception-title">
+              Autonomous racing.<br />From pixels to perception.
+            </h3>
             <p class="project-context">Triton AI · F1TENTH &amp; EV go-kart</p>
-            <p>Developed a camera-based perception pipeline for autonomous racing, connecting object detection with ROS2 multi-sensor fusion for real-time decision making.</p>
-            <ul class="contributions"><li>Trained and evaluated YOLO models on 9,000+ labeled images across changing lighting and environments.</li><li>Adapted the perception and control stack from F1TENTH to a full-scale EV go-kart.</li></ul>
-            <ul class="tags" aria-label="Technologies"><li>ROS2</li><li>YOLO</li><li>Sensor fusion</li><li>Computer vision</li></ul>
-            <div class="project-links"><a href="https://github.com/Triton-AI/Camera_fusion2025">Code ↗</a><a href="https://drive.google.com/file/d/1p2-7kQLejvLu06LUa1CqxK1zoss0T439/view">Demo ↗</a><a href="https://docs.google.com/presentation/d/1uSgE_XHUUeJU5rMeAGfmBRWoOKLKZzB1Wc46d9eokVM/edit">Slides ↗</a></div>
-            <details class="project-details"><summary>Dataset &amp; model resources</summary><p>Explore the <a href="https://universe.roboflow.com/ucsd-triton-ai-perception/trtitonai_cam_f10-uuf2k">labeled dataset and models on Roboflow Universe ↗</a>.</p></details>
+            <p>
+              Developed a camera-based perception pipeline for autonomous
+              racing, connecting object detection with ROS2 multi-sensor fusion
+              for real-time decision making.
+            </p>
+            <ul class="contributions">
+              <li>
+                Trained and evaluated YOLO models on 9,000+ labeled images
+                across changing lighting and environments.
+              </li>
+              <li>
+                Adapted the perception and control stack from F1TENTH to a
+                full-scale EV go-kart.
+              </li>
+            </ul>
+            <ul class="tags" aria-label="Technologies">
+              <li>ROS2</li>
+              <li>YOLO</li>
+              <li>Sensor fusion</li>
+              <li>Computer vision</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Triton-AI/Camera_fusion2025">Code ↗</a
+              ><a
+                href="https://youtu.be/20iOb5ikr-E"
+                >Demo ↗</a
+              ><a
+                href="https://docs.google.com/presentation/d/1uSgE_XHUUeJU5rMeAGfmBRWoOKLKZzB1Wc46d9eokVM/edit"
+                >Slides ↗</a
+              >
+            </div>
+            <details class="project-details">
+              <summary>Dataset &amp; model resources</summary>
+              <p>
+                Explore the
+                <a
+                  href="https://universe.roboflow.com/ucsd-triton-ai-perception/trtitonai_cam_f10-uuf2k"
+                  >labeled dataset and models on Roboflow Universe ↗</a
+                >.
+              </p>
+            </details>
           </div>
         </article>
         <div class="project-grid">
           <article class="project" aria-labelledby="safe-title">
-            <a class="project-image diagram-image" href="https://youtu.be/J40sx3TA0G4" aria-label="Watch the learning-based control demo"><img src="pictures/nbf.png" alt="Vehicle dynamics diagram and neural almost-barrier function training and verification workflow" width="975" height="310" loading="lazy" /></a>
+            <a
+              class="project-image diagram-image"
+              href="https://youtu.be/J40sx3TA0G4"
+              aria-label="Watch the learning-based control demo"
+              ><img
+                src="pictures/nbf.png"
+                alt="Vehicle dynamics diagram and neural almost-barrier function training and verification workflow"
+                width="975"
+                height="310"
+                loading="lazy"
+            /></a>
             <div class="project-copy">
               <p class="eyebrow">02 / Safe reinforcement learning</p>
               <h3 id="safe-title">Learning-based control</h3>
-              <p>Implemented a research-based approach to safety-constrained reinforcement learning, building a Soft Actor-Critic training pipeline in PyTorch and designing reward functions and safety constraints.</p>
-              <ul class="tags" aria-label="Technologies"><li>Python</li><li>PyTorch</li><li>SAC</li><li>Safety</li></ul>
-              <div class="project-links"><a href="https://github.com/XDawn66/Almost-barrer-control">Code ↗</a><a href="https://youtu.be/J40sx3TA0G4">Demo ↗</a><a href="reports/nbf_Re.pdf">Report ↗</a></div>
-              <details class="project-details"><summary>Research foundation</summary><p>Implementation based on <a href="https://arxiv.org/pdf/2207.13891">“Neural Almost-Barrier Functions for Quantifying Safety in Learning-based Controllers” ↗</a>. See my report for the method and evaluation.</p></details>
+              <p>
+                Implemented a research-based approach to safety-constrained
+                reinforcement learning, building a Soft Actor-Critic training
+                pipeline in PyTorch and designing reward functions and safety
+                constraints.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li>
+                <li>PyTorch</li>
+                <li>SAC</li>
+                <li>Safety</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/XDawn66/Almost-barrer-control"
+                  >Code ↗</a
+                ><a href="https://youtu.be/J40sx3TA0G4">Demo ↗</a
+                ><a href="reports/nbf_Re.pdf">Report ↗</a>
+              </div>
+              <details class="project-details">
+                <summary>Research foundation</summary>
+                <p>
+                  Implementation based on
+                  <a href="https://arxiv.org/pdf/2207.13891"
+                    >“Neural Almost-Barrier Functions for Quantifying Safety in
+                    Learning-based Controllers” ↗</a
+                  >. See my report for the method and evaluation.
+                </p>
+              </details>
             </div>
           </article>
-          <article class="project" aria-labelledby="formation-title">
-            <a class="project-image simulation-image" href="https://youtu.be/1tSrRSDBJhM" aria-label="Watch the multi-robot formation control demo"><img src="pictures/formation.png" alt="Simulation of multiple robots maintaining a formation while tracking a target" width="792" height="522" loading="lazy" /></a>
-            <div class="project-copy">
-              <p class="eyebrow">03 / Multi-agent control</p>
-              <h3 id="formation-title">Multi-robot formation control</h3>
-              <p>Built a 2D simulator for nonholonomic robots using graph-based consensus and time-scaling feedback. Extended matrix formulations to support different robot counts and formation geometries.</p>
-              <ul class="tags" aria-label="Technologies"><li>Python</li><li>NumPy</li><li>Pygame</li><li>Control theory</li></ul>
-              <div class="project-links"><a href="https://github.com/XDawn66/Implementation-of-Formation-Control-of-Nonholonomic-Mobile-Robots-Using-Graph-Theoretical-Methods">Code ↗</a><a href="https://youtu.be/1tSrRSDBJhM">Demo ↗</a><a href="reports/formation_re.pdf">Report ↗</a></div>
-              <details class="project-details"><summary>Method &amp; validation</summary><p>Verified controller stability using the Hurwitz criterion and evaluated robustness under disturbances. Based on <a href="reports/fomration_control.pdf">“Formation Control of Nonholonomic Mobile Robots Using Graph Theoretical Methods” ↗</a>.</p></details>
-            </div>
-          </article>
-        </div>
-        <article class="project vehicle-project" aria-labelledby="vehicle-title">
-          <a class="project-image vehicle-image" href="https://github.com/UCSD-ECEMAE-148/final-project-repository-su25-team5" aria-label="Explore the autonomous vehicle project code"><img src="pictures/Team5RoboCar.jpg" alt="Custom autonomous vehicle with LiDAR, camera, and onboard computer mounted on a blue chassis" width="2024" height="2478" loading="lazy" /></a>
+          <article
+          class="project"
+          aria-labelledby="vehicle-title"
+        >
+          <a
+            class="project-image vehicle-image"
+            href="https://github.com/UCSD-ECEMAE-148/final-project-repository-su25-team5"
+            aria-label="Explore the autonomous vehicle project code"
+            ><img
+              src="pictures/Team5RoboCar.jpg"
+              alt="Custom autonomous vehicle with LiDAR, camera, and onboard computer mounted on a blue chassis"
+              width="2024"
+              height="2478"
+              loading="lazy"
+          /></a>
           <div class="project-copy">
-            <p class="eyebrow">04 / Autonomous vehicles</p>
+            <p class="eyebrow">03 / Autonomous vehicles</p>
             <h3 id="vehicle-title">Canny ROS Donkey</h3>
             <p class="project-context">Team lead · 3 members · UC San Diego</p>
-            <p>Led an autonomous vehicle project from simulation to real hardware, combining GPS navigation, ROS path tracking, and neural-network driving models.</p>
-            <ul class="contributions"><li>Integrated Canny edge preprocessing to improve vision robustness under changing lighting.</li><li>Prototyped LiDAR-based safety monitoring and diagnosed hardware issues including motor noise.</li></ul>
-            <ul class="tags" aria-label="Technologies"><li>ROS</li><li>LiDAR</li><li>Computer vision</li><li>Donkey Car</li></ul>
-            <div class="project-links"><a href="https://github.com/UCSD-ECEMAE-148/final-project-repository-su25-team5">Code ↗</a><a href="https://docs.google.com/presentation/d/19Qnh-O2huFwSPowrSBKmezatQEWL6zlXS5n7mhxw9v8/edit">Project presentation ↗</a></div>
+            <p>
+              Led an autonomous vehicle project from simulation to real
+              hardware, combining GPS navigation, ROS path tracking, and
+              neural-network driving models.
+            </p>
+            <ul class="contributions">
+              <li>
+                Integrated Canny edge preprocessing to improve vision robustness
+                under changing lighting.
+              </li>
+              <li>
+                Prototyped LiDAR-based safety monitoring and diagnosed hardware
+                issues including motor noise.
+              </li>
+            </ul>
+            <ul class="tags" aria-label="Technologies">
+              <li>ROS</li>
+              <li>LiDAR</li>
+              <li>Computer vision</li>
+              <li>Donkey Car</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/UCSD-ECEMAE-148/final-project-repository-su25-team5"
+                >Code ↗</a
+              ><a
+                href="https://docs.google.com/presentation/d/19Qnh-O2huFwSPowrSBKmezatQEWL6zlXS5n7mhxw9v8/edit"
+                >Project presentation ↗</a
+              >
+            </div>
           </div>
         </article>
+        </div>
+        <article class="project vehicle-project" aria-labelledby="formation-title">
+            <a
+              class="project-image simulation-image"
+              href="https://youtu.be/1tSrRSDBJhM"
+              aria-label="Watch the multi-robot formation control demo"
+              ><img
+                src="pictures/formation.png"
+                alt="Simulation of multiple robots maintaining a formation while tracking a target"
+                width="792"
+                height="522"
+                loading="lazy"
+            /></a>
+            <div class="project-copy">
+              <p class="eyebrow">04 / Multi-agent control</p>
+              <h3 id="formation-title">Multi-robot formation control</h3>
+              <p>
+                Built a 2D simulator for nonholonomic robots using graph-based
+                consensus and time-scaling feedback. Extended matrix
+                formulations to support different robot counts and formation
+                geometries.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li>
+                <li>NumPy</li>
+                <li>Pygame</li>
+                <li>Control theory</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://github.com/XDawn66/Implementation-of-Formation-Control-of-Nonholonomic-Mobile-Robots-Using-Graph-Theoretical-Methods"
+                  >Code ↗</a
+                ><a href="https://youtu.be/1tSrRSDBJhM">Demo ↗</a
+                ><a href="reports/formation_re.pdf">Report ↗</a>
+              </div>
+              <details class="project-details">
+                <summary>Method &amp; validation</summary>
+                <p>
+                  Verified controller stability using the Hurwitz criterion and
+                  evaluated robustness under disturbances. Based on
+                  <a href="reports/fomration_control.pdf"
+                    >“Formation Control of Nonholonomic Mobile Robots Using
+                    Graph Theoretical Methods” ↗</a
+                  >.
+                </p>
+              </details>
+            </div>
+          </article>
       </section>
       <section class="other-work section" aria-labelledby="other-title">
-        <div class="section-heading"><h2 id="other-title">More things I’ve built</h2><span class="section-note">Software, systems &amp; teamwork</span></div>
-        <details class="other-project"><summary><span>The Club Triton<small>Team lead · 12 members · Web development</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="other-project-body"><p>Led a 12-person team building a UCSD-themed browser game. Guided code reviews and system design, implemented a CI/CD pipeline, and developed 30+ custom game cards with IndexedDB persistence.</p><div class="project-links"><a href="https://github.com/cse110-sp25-group13/The_club_triton">Code ↗</a><a href="https://cse110-sp25-group13.github.io/The_club_triton/pages/home-page.html">Play the game ↗</a><a href="https://github.com/cse110-sp25-group13/cse110-sp25-group13">Project report ↗</a></div></div></details>
-        <details class="other-project"><summary><span>Weathery<small>Full-stack development · IoT</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="other-project-body"><p>Built a weather monitoring application connecting ESP32 sensors to a web dashboard through MQTT and MySQL. Implemented authentication, device management, and personalized outfit recommendations using weather APIs and an LLM.</p><div class="project-links"><a href="https://www.youtube.com/watch?v=EisO8vOjqTk">Video walkthrough ↗</a><a href="https://tech-assignment-final-project-henry-10o5.onrender.com/">Live app ↗</a></div></div></details>
-        <details class="other-project"><summary><span>uBot<small>Team lead · 5 members · Embedded robotics</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="other-project-body"><p>Led a five-person team building a robot that sweeps, vacuums, and mops. Combined an Arduino, DC motors, ultrasonic and infrared sensors, and infrared remote control.</p><div class="project-links"><a href="https://github.com/XDawn66/Ubot">Code &amp; project ↗</a></div></div></details>
-        <details class="other-project"><summary><span>Text Adventure Game<small>Java · Swing · Educational software</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="other-project-body"><p>Created an educational text adventure for elementary school students, with sound effects, question-based gameplay, and a persistent leaderboard for the top five players.</p><div class="project-links"><a href="https://github.com/XDawn66/Text-Advanture-Game-/tree/main">Code &amp; project ↗</a></div></div></details>
+        <div class="section-heading">
+          <h2 id="other-title">More things I’ve built</h2>
+          <span class="section-note">Software, systems &amp; teamwork</span>
+        </div>
+        <details class="other-project">
+          <summary>
+            <span
+              >The Club Triton<small
+                >Team lead · 12 members · Web development</small
+              ></span
+            ><span class="expand-icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="other-project-body">
+            <p>
+              Led a 12-person team building a UCSD-themed browser game. Guided
+              code reviews and system design, implemented a CI/CD pipeline, and
+              developed 30+ custom game cards with IndexedDB persistence.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/cse110-sp25-group13/The_club_triton"
+                >Code ↗</a
+              ><a
+                href="https://cse110-sp25-group13.github.io/The_club_triton/pages/home-page.html"
+                >Play the game ↗</a
+              ><a
+                href="https://github.com/cse110-sp25-group13/cse110-sp25-group13"
+                >Project report ↗</a
+              >
+            </div>
+          </div>
+        </details>
+        <details class="other-project">
+          <summary>
+            <span>Weathery<small>Full-stack development · IoT</small></span
+            ><span class="expand-icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="other-project-body">
+            <p>
+              Built a weather monitoring application connecting ESP32 sensors to
+              a web dashboard through MQTT and MySQL. Implemented
+              authentication, device management, and personalized outfit
+              recommendations using weather APIs and an LLM.
+            </p>
+            <div class="project-links">
+              <a href="https://www.youtube.com/watch?v=EisO8vOjqTk"
+                >Video walkthrough ↗</a
+              ><a
+                href="https://tech-assignment-final-project-henry-10o5.onrender.com/"
+                >Live app ↗</a
+              >
+            </div>
+          </div>
+        </details>
+        <details class="other-project">
+          <summary>
+            <span
+              >uBot<small
+                >Team lead · 5 members · Embedded robotics</small
+              ></span
+            ><span class="expand-icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="other-project-body">
+            <p>
+              Led a five-person team building a robot that sweeps, vacuums, and
+              mops. Combined an Arduino, DC motors, ultrasonic and infrared
+              sensors, and infrared remote control.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/XDawn66/Ubot">Code &amp; project ↗</a>
+            </div>
+          </div>
+        </details>
+        <details class="other-project">
+          <summary>
+            <span
+              >Text Adventure Game<small
+                >Java · Swing · Educational software</small
+              ></span
+            ><span class="expand-icon" aria-hidden="true">+</span>
+          </summary>
+          <div class="other-project-body">
+            <p>
+              Created an educational text adventure for elementary school
+              students, with sound effects, question-based gameplay, and a
+              persistent leaderboard for the top five players.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/XDawn66/Text-Advanture-Game-/tree/main"
+                >Code &amp; project ↗</a
+              >
+            </div>
+          </div>
+        </details>
       </section>
       <section class="about section" id="about" aria-labelledby="about-title">
-        <div class="about-copy"><p class="eyebrow">A little about me</p><h2 id="about-title">From an idea<br />to a working robot.</h2><p>I’m a recent UC San Diego graduate with a B.S. in Computer Engineering, focused on robotics, autonomous systems, reinforcement learning, and control.</p><p>My work spans multi-agent control, safe reinforcement learning, perception, and autonomous vehicle testing. I enjoy connecting simulation and research with the practical challenges of deploying software on real robotic platforms.</p><p>I’m looking for an early-career role where I can contribute to robotics, autonomy, controls, or applied ML.</p></div>
-        <div class="toolkit"><h3>What I work with</h3><dl><div><dt>Languages</dt><dd>Python, C++</dd></div><div><dt>Robotics &amp; hardware</dt><dd>ROS2, ROS, Jetson, LiDAR, cameras, Arduino, ESP32</dd></div><div><dt>Learning &amp; perception</dt><dd>PyTorch, reinforcement learning, Soft Actor-Critic, YOLO</dd></div><div><dt>Control &amp; simulation</dt><dd>Multi-agent systems, formation control, NumPy, Matplotlib, Pygame</dd></div></dl></div>
+        <div class="about-copy">
+          <p class="eyebrow">A little about me</p>
+          <h2 id="about-title">From an idea<br />to a working robot.</h2>
+          <p>
+            I’m a recent UC San Diego graduate with a B.S. in Computer
+            Engineering, focused on robotics, autonomous systems, reinforcement
+            learning, and control.
+          </p>
+          <p>
+            My work spans multi-agent control, safe reinforcement learning,
+            perception, and autonomous vehicle testing. I enjoy connecting
+            simulation and research with the practical challenges of deploying
+            software on real robotic platforms.
+          </p>
+          <p>
+            I’m looking for an early-career role where I can contribute to
+            robotics, autonomy, controls, or applied ML.
+          </p>
+        </div>
+        <div class="toolkit">
+          <h3>What I work with</h3>
+          <dl>
+            <div>
+              <dt>Languages</dt>
+              <dd>Python, C++</dd>
+            </div>
+            <div>
+              <dt>Robotics &amp; hardware</dt>
+              <dd>ROS2, ROS, Jetson, LiDAR, cameras, Arduino, ESP32</dd>
+            </div>
+            <div>
+              <dt>Learning &amp; perception</dt>
+              <dd>PyTorch, reinforcement learning, Soft Actor-Critic, YOLO</dd>
+            </div>
+            <div>
+              <dt>Control &amp; simulation</dt>
+              <dd>
+                Multi-agent systems, formation control, NumPy, Matplotlib,
+                Pygame
+              </dd>
+            </div>
+          </dl>
+        </div>
       </section>
-      <section class="contact section" id="contact" aria-labelledby="contact-title"><p class="eyebrow">Let’s connect</p><h2 id="contact-title">Have a robot<br />in mind?</h2><p>I’d love to talk about robotics, research, or opportunities to build something useful.</p><a class="contact-email" href="mailto:jiang1241838337@gmail.com">jiang1241838337@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="https://www.linkedin.com/in/zhenyu-jiang-845a08235/">LinkedIn ↗</a><a href="https://github.com/XDawn66">GitHub ↗</a><a href="tel:+15105098410">Phone ↗</a></div></section>
+      <section
+        class="contact section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <p class="eyebrow">Let’s connect</p>
+        <h2 id="contact-title">Have a robot<br />in mind?</h2>
+        <p>
+          I’d love to talk about robotics, research, or opportunities to build
+          something useful.
+        </p>
+        <a class="contact-email" href="mailto:jiang1241838337@gmail.com"
+          >jiang1241838337@gmail.com <span aria-hidden="true">↗</span></a
+        >
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/zhenyu-jiang-845a08235/"
+            >LinkedIn ↗</a
+          ><a href="https://github.com/XDawn66">GitHub ↗</a
+          ><a href="tel:+15105098410">Phone ↗</a>
+        </div>
+      </section>
     </main>
-    <footer class="site-footer wrap"><span>© Zhenyu Jiang · Simulation visual: <a href="https://github.com/carla-simulator/carla/blob/ue4-dev/Docs/img/sensor_dvs.gif">CARLA ↗</a></span><a href="#home">Back to top ↑</a></footer>
+    <footer class="site-footer wrap">
+      <span
+        >© Zhenyu Jiang · Simulation visual:
+        <a
+          href="https://github.com/carla-simulator/carla/blob/ue4-dev/Docs/img/sensor_dvs.gif"
+          >CARLA ↗</a
+        ></span
+      ><a href="#home">Back to top ↑</a>
+    </footer>
   </body>
 </html>

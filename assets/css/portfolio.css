@@ -67,7 +67,7 @@ summary { cursor: pointer; }
 .project-details p { margin-top: 10px; max-width: 480px; }
 .project-details a { text-decoration: underline; }
 .vehicle-project { margin-top: 57px; padding-top: 42px; border-top: 1px solid var(--line); }
-.vehicle-image { height: 345px; }
+.vehicle-image, .vehicle-project .simulation-image { height: 345px; }
 .vehicle-image img { object-position: center 54%; }
 .other-work { padding-bottom: 55px; }
 .other-project { border-top: 1px solid var(--line); }
