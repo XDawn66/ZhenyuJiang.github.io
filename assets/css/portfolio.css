@@ -38,6 +38,8 @@ h1, h2, h3 { font-weight: 500; line-height: 1.15; letter-spacing: -.045em; }
 .section-note { font-size: 12px; color: var(--muted); }
 .featured-project, .vehicle-project { display: grid; grid-template-columns: 1.05fr 1fr; gap: 43px; align-items: center; }
 .current-project { padding-bottom: 42px; margin-bottom: 42px; border-bottom: 1px solid var(--line); }
+.recent-work .current-project:last-child { padding-bottom: 0; margin-bottom: 0; border-bottom: 0; }
+.recent-work .project-image img { height: auto; object-fit: contain; }
 .current-project-image { background: #fff; }
 .current-project-image img { height: auto; }
 .project-image { display: block; position: relative; overflow: hidden; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); }

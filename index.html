@@ -28,7 +28,7 @@
         >Zhenyu Jiang<span aria-hidden="true">.</span></a
       >
       <nav aria-label="Main navigation">
-        <a href="#work">Work</a><a href="#about">About</a
+        <a href="#recent-work">Work</a><a href="#about">About</a
         ><a href="#contact">Contact <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
@@ -45,7 +45,7 @@
             perceive, and move safely.
           </p>
           <div class="hero-actions">
-            <a class="button" href="#work"
+            <a class="button" href="#recent-work"
               >Explore my work <span aria-hidden="true">↘</span></a
             >
             <a class="text-link" href="https://github.com/XDawn66"
@@ -72,11 +72,28 @@
           />
         </figure>
       </section>
-      <section class="work section" id="work" aria-labelledby="work-title">
+      <section class="recent-work section" id="recent-work" aria-labelledby="recent-work-title">
         <div class="section-heading">
-          <h2 id="work-title">Selected work</h2>
-          <span class="section-note">Research → simulation → hardware</span>
+          <h2 id="recent-work-title">Recent work</h2>
+          <span class="section-note">What I’m building now</span>
         </div>
+        <article class="project featured-project current-project" aria-labelledby="sensor-fusion-title">
+          <a class="project-image sensor-fusion-image" href="https://github.com/XDawn66/sensor-fusion-mpc" aria-label="Explore the sensor fusion and MPC project">
+            <img src="pictures/sensor-fusion-mpc.gif" alt="Animated sensor fusion and MPC dashboard showing a simulated robot following an elliptical route, GPS-corrected position estimates, and tracking error" width="1280" height="720" loading="lazy" />
+          </a>
+          <div class="project-copy">
+            <h3 id="sensor-fusion-title">Sensor fusion &amp; model predictive control</h3>
+            <p class="project-context">State estimation · Trajectory tracking · Simulation</p>
+            <p>Built a Python/Pygame simulation that fuses noisy GPS and velocity measurements with a Kalman filter, then uses the estimated state to follow an elliptical route with model predictive control.</p>
+            <ul class="contributions">
+              <li>Developed sequence-search and continuous optimization-based MPC controllers, including a warm-started SLSQP solver with a 20-step prediction horizon.</li>
+              <li>Visualized sensor drift, position error, uncertainty, and predicted motion in a live dashboard.</li>
+            </ul>
+            <ul class="tags" aria-label="Technologies"><li>Python</li><li>Kalman filter</li><li>MPC</li><li>SciPy</li><li>Pygame</li></ul>
+            <div class="project-links"><a href="https://github.com/XDawn66/sensor-fusion-mpc">Code &amp; project ↗</a><a href="https://github.com/XDawn66/sensor-fusion-mpc#demo">Demo &amp; README ↗</a></div>
+            <details class="project-details"><summary>Simulation scope</summary><p>The preview shows the sequence-search controller. The project also includes optimization-based MPC. Both use a 2D double-integrator motion model, and the controller receives estimated state rather than ground truth.</p></details>
+          </div>
+        </article>
         <article
           class="project featured-project current-project"
           aria-labelledby="rl-formation-title"
@@ -142,6 +159,12 @@
             </details>
           </div>
         </article>
+      </section>
+      <section class="work section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <h2 id="work-title">Selected work</h2>
+          <span class="section-note">Research → simulation → hardware</span>
+        </div>
         <article
           class="project featured-project"
           aria-labelledby="perception-title"
